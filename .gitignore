@@ -1,0 +1,24 @@
+# 书籍正文 —— 绝不入库
+*.txt
+!requirements*.txt
+
+# 电子书原始文件
+*.epub
+*.mobi
+*.azw3
+*.pdf
+*.djvu
+
+# 检索缓存 / 索引
+*.index
+*.cache
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
